@@ -1,11 +1,14 @@
 body {
-  background: black;
-  width: 95%;
+  /*background: black;*/
+  width: 100%;
   margin: auto;
   color: white;
   font-size: 20px;
 }
 
+pre {
+  width: 100%;
+}
 .container {
   margin-top: 20px;
   position: relative;
@@ -14,7 +17,7 @@ body {
 textarea#snippet {
   width: 100%;
   min-height: 400px;
-  background: black;
+  /*background: black;*/
   border: none;
   outline: 0;
   -webkit-box-shadow: none !important;
