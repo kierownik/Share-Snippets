@@ -34,9 +34,6 @@ $geshi->set_tab_width('2');
 // And echo the result!
 //
 echo $geshi->parse_code(); ?>
-<pre class="prettyprint linenums lang-{{ $snippet->language }}">
-  {{ e( $snippet->snippet ) }}
-</pre>
   <div class="navbar">
     <div class="btn-group nav">
       {{ HTML::linkRoute('fork_snippet', 'Fork Snippet', $snippet->id, ['class' => 'btn btn-warning']) }}
