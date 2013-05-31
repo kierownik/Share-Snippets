@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title><?php echo $__env->yieldContent('title'); ?></title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <meta charset="utf-8" />
+  <?php echo HTML::style( 'packages/bootstrap/css/bootstrap.min.css', array( 'media' => 'screen' ) ); ?>
+  <?php echo HTML::style( 'packages/css/main.css', array( 'media' => 'screen' ) ); ?>
+  <?php echo HTML::style( 'packages/google-code-prettify/prettify.css', array( 'media' => 'screen' ) ); ?>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <?php echo $__env->yieldContent( 'content' ); ?>
+    </div>
+  </div>
+  <?php echo HTML::script('packages/js/jquery.js'); ?>
+  <?php echo HTML::script('packages/google-code-prettify/prettify.js'); ?>
+  <script>
+    $('textarea#snippet').height( $(window).height() - 50 );
+    prettyPrint();
+  </script>
+</body>
+</html>

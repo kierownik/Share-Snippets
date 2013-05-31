@@ -1,0 +1,26 @@
+[2013-05-30 17:29:59] log.ERROR: exception 'InvalidArgumentException' with message 'Command "generate" is not defined.
+
+Did you mean this?
+    key:generate' in C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Application.php:610
+Stack trace:
+#0 C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Application.php(181): Symfony\Component\Console\Application->find('generate')
+#1 C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\snippet\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2013-05-30 17:30:12] log.ERROR: exception 'InvalidArgumentException' with message 'Command "create" is not defined.' in C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Application.php:610
+Stack trace:
+#0 C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Application.php(181): Symfony\Component\Console\Application->find('create')
+#1 C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\snippet\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2013-05-30 17:32:41] log.ERROR: exception 'RuntimeException' with message 'Too many arguments.' in C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php:181
+Stack trace:
+#0 C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Input\ArgvInput.php(90): Symfony\Component\Console\Input\ArgvInput->parseArgument('help')
+#1 C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Input\Input.php(60): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(226): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Console\Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Application.php(892): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Application.php(184): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\xampp\htdocs\snippet\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\xampp\htdocs\snippet\artisan(59): Symfony\Component\Console\Application->run()
+#8 {main} [] []

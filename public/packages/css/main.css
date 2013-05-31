@@ -1,0 +1,28 @@
+body {
+  background: black;
+  width: 95%;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 20px;
+  position: relative;
+}
+
+textarea#snippet {
+  width: 100%;
+  min-height: 400px;
+  background: black;
+  border: none;
+  outline: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.navbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

@@ -1,0 +1,17 @@
+<?php $__env->startSection('title'); ?>
+View Snippet
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+<pre class="prettyprint linenums lang-<?php echo $snippet->language; ?>">
+  <?php echo e( $snippet->snippet ); ?>
+</pre>
+  <div class="navbar">
+    <div class="btn-group nav">
+      <?php echo HTML::linkRoute('fork_snippet', 'Fork Snippet', $snippet->id, ['class' => 'btn btn-warning']); ?>
+      <?php echo HTML::linkRoute('new_snippet', 'New Snippet', array(), ['class' => 'btn btn-success']); ?>
+    </div>
+      <?php echo Form::input('text', 'name', $snippet->name, [ 'placeholder' => 'Name', 'disabled']); ?>
+      <?php echo Form::select('language', ['' => 'Language', 'apollo' => 'Apollo', 'basic' => 'Basic', 'clj' => 'Clj', 'css' => 'Css', 'dart' => 'Dart', 'erlang' => 'Erlang', 'go' => 'Go', 'hs' => 'Hs', 'lisp' => 'Lisp', 'llvm' => 'Llvm', 'lua' => 'Lua', 'matlab' => 'Matlab', 'ml' => 'Ml', 'mups' => 'Mups', 'n' => 'N', 'pascal' => 'Pascal', 'proto' => 'Proto', 'r' => 'R', 'rd' => 'Rd', 'scala' => 'Scala', 'sql' => 'Sql', 'tcl' => 'Tcl', 'tex' => 'Tex', 'vb' => 'Vb', 'vhdl' => 'Vhdl', 'wiki' => 'Wiki', 'xq' => 'Xq', 'yaml' => 'Yaml'], $snippet->language, ['disabled'] ); ?>
+  </div>
+<?php $__env->stopSection(); ?>

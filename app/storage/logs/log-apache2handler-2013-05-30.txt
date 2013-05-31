@@ -1,0 +1,489 @@
+[2013-05-30 18:02:43] log.ERROR: exception 'ReflectionException' with message 'Class snippet does not exist' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:165
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(165): ReflectionClass->__construct('snippet')
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(142): Illuminate\Container\Container->build('snippet', Array)
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(442): Illuminate\Container\Container->make('snippet', Array)
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4737): Illuminate\Foundation\Application->make('snippet')
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#5 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2013-05-30 18:03:18] log.ERROR: exception 'ReflectionException' with message 'Class snippet does not exist' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:165
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(165): ReflectionClass->__construct('snippet')
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(142): Illuminate\Container\Container->build('snippet', Array)
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(442): Illuminate\Container\Container->make('snippet', Array)
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4737): Illuminate\Foundation\Application->make('snippet')
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#5 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2013-05-30 18:03:32] log.ERROR: exception 'ReflectionException' with message 'Class snippet does not exist' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:165
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(165): ReflectionClass->__construct('snippet')
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(142): Illuminate\Container\Container->build('snippet', Array)
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(442): Illuminate\Container\Container->make('snippet', Array)
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4737): Illuminate\Foundation\Application->make('snippet')
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#5 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2013-05-30 18:06:19] log.ERROR: exception 'ReflectionException' with message 'Class snippet does not exist' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:165
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(165): ReflectionClass->__construct('snippet')
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(142): Illuminate\Container\Container->build('snippet', Array)
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(442): Illuminate\Container\Container->make('snippet', Array)
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4737): Illuminate\Foundation\Application->make('snippet')
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#5 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2013-05-30 18:06:21] log.ERROR: exception 'ReflectionException' with message 'Class snippet does not exist' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:165
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(165): ReflectionClass->__construct('snippet')
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(142): Illuminate\Container\Container->build('snippet', Array)
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(442): Illuminate\Container\Container->make('snippet', Array)
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4737): Illuminate\Foundation\Application->make('snippet')
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#5 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2013-05-30 18:19:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:302
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->__call('new', Array)
+#1 [internal function]: snippet->new()
+#2 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('new', Array)
+#4 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'new', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-05-30 18:19:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:302
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->__call('new', Array)
+#1 [internal function]: snippet->new()
+#2 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('new', Array)
+#4 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'new', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-05-30 18:30:32] log.ERROR: exception 'InvalidArgumentException' with message 'View [snippet.master] not found.' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:8027
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8000): Illuminate\View\FileViewFinder->findInPaths('snippet.master', Array)
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8100): Illuminate\View\FileViewFinder->find('snippet.master')
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(3310): Illuminate\View\Environment->make('snippet.master')
+#3 C:\xampp\htdocs\snippet\app\controllers\BaseController.php(14): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 C:\xampp\htdocs\snippet\app\controllers\BaseController.php(14): Illuminate\Support\Facades\View::make('snippet.master')
+#5 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(111): BaseController->setupLayout()
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'get_new', Array)
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2013-05-30 18:36:01] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')', expecting ',' or ';'' in C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 18:36:17] log.ERROR: exception 'ErrorException' with message 'Argument 1 passed to Illuminate\Html\FormBuilder::open() must be of the type array, string given, called in C:\xampp\htdocs\snippet\bootstrap\compiled.php on line 3310 and defined' in C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php:93
+Stack trace:
+#0 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(93): Illuminate\Exception\Handler->handleError(4096, 'Argument 1 pass...', 'C:\xampp\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(3310): Illuminate\Html\FormBuilder->open('/')
+#2 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(2): Illuminate\Support\Facades\Facade::__callStatic('open', Array)
+#3 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(2): Illuminate\Support\Facades\Form::open('/')
+#4 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8995): include('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\xampp\htdocs...', Array)
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\Engines\CompilerEngine->get('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8895): Illuminate\View\View->render()
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\View->gatherData()
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#11 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9473): Illuminate\View\View->render()
+#12 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9021): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#13 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4908): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#14 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'get_new', Object(Illuminate\View\View))
+#16 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'get_new', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#19 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#20 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2013-05-30 18:38:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:4918
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4760): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4748): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-05-30 18:41:32] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\UrlGenerator::to_route()' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:3310
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 18:43:17] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\UrlGenerator::to_route()' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:3312
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 18:43:40] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\UrlGenerator::to_route()' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:3310
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 18:45:58] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\UrlGenerator::to_route()' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:3310
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 18:51:20] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\UrlGenerator::to_route()' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:3310
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 18:52:10] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\UrlGenerator::to_route()' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:3310
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 18:53:56] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\UrlGenerator::to_route()' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:3310
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 21:07:27] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\UrlGenerator::to_route()' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:3310
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 21:50:54] log.ERROR: exception 'BadMethodCallException' with message 'Method to_route does not exist.' in C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\HtmlBuilder.php:404
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(3310): Illuminate\Html\HtmlBuilder->__call('to_route', Array)
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(3310): Illuminate\Html\HtmlBuilder->to_route('new_snippet')
+#2 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(7): Illuminate\Support\Facades\Facade::__callStatic('to_route', Array)
+#3 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(7): Illuminate\Support\Facades\HTML::to_route('new_snippet')
+#4 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8995): include('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\xampp\htdocs...', Array)
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\Engines\CompilerEngine->get('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8895): Illuminate\View\View->render()
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\View->gatherData()
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#11 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9473): Illuminate\View\View->render()
+#12 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9021): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#13 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4908): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#14 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'get_new', Object(Illuminate\View\View))
+#16 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'get_new', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#19 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#20 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2013-05-30 21:54:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:4918
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4760): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4748): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-05-30 21:55:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:4918
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4760): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4748): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-05-30 21:55:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:4918
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4760): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4748): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-05-30 21:55:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:4918
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4760): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4748): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-05-30 22:02:25] log.ERROR: exception 'ErrorException' with message 'Array to string conversion' in C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php:317
+Stack trace:
+#0 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(317): Illuminate\Exception\Handler->handleError(8, 'Array to string...', 'C:\xampp\htdocs...', 317, Array)
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(3312): Illuminate\Html\FormBuilder->textarea('snippet', Array)
+#2 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(3): Illuminate\Support\Facades\Facade::__callStatic('textarea', Array)
+#3 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(3): Illuminate\Support\Facades\Form::textarea('snippet', Array)
+#4 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8995): include('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\xampp\htdocs...', Array)
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\Engines\CompilerEngine->get('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8895): Illuminate\View\View->render()
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\View->gatherData()
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#11 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9473): Illuminate\View\View->render()
+#12 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9021): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#13 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4908): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#14 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'get_new', Object(Illuminate\View\View))
+#16 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'get_new', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#19 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#20 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2013-05-30 22:15:22] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'' in C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe:4
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 22:17:09] log.ERROR: exception 'ErrorException' with message 'array_combine(): Both parameters should have an equal number of elements' in C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php:227
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_combine()...', 'C:\xampp\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(227): array_combine(Array, Array)
+#2 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(189): Illuminate\Routing\UrlGenerator->buildParameterList(Object(Illuminate\Routing\Route), Array)
+#3 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\HtmlBuilder.php(184): Illuminate\Routing\UrlGenerator->route('new_snippet', '')
+#4 C:\xampp\htdocs\snippet\bootstrap\compiled.php(3316): Illuminate\Html\HtmlBuilder->linkRoute('new_snippet', 'Restart', '', Array)
+#5 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(4): Illuminate\Support\Facades\Facade::__callStatic('linkRoute', Array)
+#6 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(4): Illuminate\Support\Facades\HTML::linkRoute('new_snippet', 'Restart', '', Array)
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8995): include('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\xampp\htdocs...', Array)
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\Engines\CompilerEngine->get('C:\xampp\htdocs...', Array)
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#11 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8895): Illuminate\View\View->render()
+#12 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\View->gatherData()
+#13 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#14 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9473): Illuminate\View\View->render()
+#15 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9021): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#16 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4908): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#17 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'get_new', Object(Illuminate\View\View))
+#19 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'get_new', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#22 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#23 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2013-05-30 22:17:14] log.ERROR: exception 'ErrorException' with message 'array_combine(): Both parameters should have an equal number of elements' in C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php:227
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_combine()...', 'C:\xampp\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(227): array_combine(Array, Array)
+#2 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(189): Illuminate\Routing\UrlGenerator->buildParameterList(Object(Illuminate\Routing\Route), Array)
+#3 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\HtmlBuilder.php(184): Illuminate\Routing\UrlGenerator->route('new_snippet', '')
+#4 C:\xampp\htdocs\snippet\bootstrap\compiled.php(3316): Illuminate\Html\HtmlBuilder->linkRoute('new_snippet', 'Restart', '', Array)
+#5 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(4): Illuminate\Support\Facades\Facade::__callStatic('linkRoute', Array)
+#6 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(4): Illuminate\Support\Facades\HTML::linkRoute('new_snippet', 'Restart', '', Array)
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8995): include('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\xampp\htdocs...', Array)
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\Engines\CompilerEngine->get('C:\xampp\htdocs...', Array)
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#11 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8895): Illuminate\View\View->render()
+#12 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\View->gatherData()
+#13 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#14 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9473): Illuminate\View\View->render()
+#15 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9021): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#16 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4908): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#17 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'get_new', Object(Illuminate\View\View))
+#19 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'get_new', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#22 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#23 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2013-05-30 22:20:56] log.ERROR: exception 'ErrorException' with message 'array_combine(): Both parameters should have an equal number of elements' in C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php:227
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_combine()...', 'C:\xampp\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(227): array_combine(Array, Array)
+#2 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(189): Illuminate\Routing\UrlGenerator->buildParameterList(Object(Illuminate\Routing\Route), Array)
+#3 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\HtmlBuilder.php(184): Illuminate\Routing\UrlGenerator->route('new_snippet', '')
+#4 C:\xampp\htdocs\snippet\bootstrap\compiled.php(3316): Illuminate\Html\HtmlBuilder->linkRoute('new_snippet', 'Restart', '', Array)
+#5 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(4): Illuminate\Support\Facades\Facade::__callStatic('linkRoute', Array)
+#6 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(4): Illuminate\Support\Facades\HTML::linkRoute('new_snippet', 'Restart', '', Array)
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8995): include('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\xampp\htdocs...', Array)
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\Engines\CompilerEngine->get('C:\xampp\htdocs...', Array)
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#11 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8895): Illuminate\View\View->render()
+#12 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\View->gatherData()
+#13 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#14 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9473): Illuminate\View\View->render()
+#15 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9021): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#16 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4908): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#17 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'get_new', Object(Illuminate\View\View))
+#19 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'get_new', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#22 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#23 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2013-05-30 22:21:13] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'url' not found' in C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe:7
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 22:21:30] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'url' not found' in C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe:7
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 22:21:40] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\UrlGenerator::to_route()' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:3310
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 22:22:23] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\UrlGenerator::toRoute()' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:3310
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 22:35:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:4915
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4760): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4748): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-05-30 22:35:23] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:4915
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4760): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4748): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-05-30 22:35:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:4915
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4760): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4748): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-05-30 22:35:51] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\snippet\bootstrap\compiled.php:4915
+Stack trace:
+#0 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4760): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4748): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-05-30 22:44:12] log.ERROR: exception 'ErrorException' with message 'array_combine(): Both parameters should have an equal number of elements' in C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php:227
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_combine()...', 'C:\xampp\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(227): array_combine(Array, Array)
+#2 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(189): Illuminate\Routing\UrlGenerator->buildParameterList(Object(Illuminate\Routing\Route), Array)
+#3 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\HtmlBuilder.php(184): Illuminate\Routing\UrlGenerator->route('new_snippet', '')
+#4 C:\xampp\htdocs\snippet\bootstrap\compiled.php(3316): Illuminate\Html\HtmlBuilder->linkRoute('new_snippet', 'Start Over', '', Array)
+#5 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(6): Illuminate\Support\Facades\Facade::__callStatic('linkRoute', Array)
+#6 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(6): Illuminate\Support\Facades\HTML::linkRoute('new_snippet', 'Start Over', '', Array)
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8995): include('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\xampp\htdocs...', Array)
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\Engines\CompilerEngine->get('C:\xampp\htdocs...', Array)
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#11 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8895): Illuminate\View\View->render()
+#12 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\View->gatherData()
+#13 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#14 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9473): Illuminate\View\View->render()
+#15 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9021): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#16 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4908): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#17 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'get_new', Object(Illuminate\View\View))
+#19 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'get_new', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#22 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#23 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2013-05-30 22:44:30] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ','' in C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe:6
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 22:46:08] log.ERROR: exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php:390
+Stack trace:
+#0 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(390): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\xampp\htdocs...', 390, Array)
+#1 C:\xampp\htdocs\snippet\bootstrap\compiled.php(3316): Illuminate\Html\FormBuilder->select('language', 'name', Array, Array)
+#2 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(10): Illuminate\Support\Facades\Facade::__callStatic('select', Array)
+#3 C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe(10): Illuminate\Support\Facades\Form::select('language', 'name', Array, Array)
+#4 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8995): include('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\xampp\htdocs...', Array)
+#6 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\Engines\CompilerEngine->get('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#8 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8895): Illuminate\View\View->render()
+#9 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8888): Illuminate\View\View->gatherData()
+#10 C:\xampp\htdocs\snippet\bootstrap\compiled.php(8879): Illuminate\View\View->getContents()
+#11 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9473): Illuminate\View\View->render()
+#12 C:\xampp\htdocs\snippet\bootstrap\compiled.php(9021): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#13 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4908): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#14 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\snippet\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'get_new', Object(Illuminate\View\View))
+#16 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4738): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'get_new', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7796): call_user_func_array(Object(Closure), Array)
+#19 C:\xampp\htdocs\snippet\bootstrap\compiled.php(7783): Illuminate\Routing\Route->callCallable()
+#20 C:\xampp\htdocs\snippet\bootstrap\compiled.php(4749): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\snippet\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\snippet\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\snippet\public\index.php(49): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2013-05-30 22:50:25] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '' => '' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in C:\xampp\htdocs\snippet\app\storage\views\7b994c317b4e79f48b4ec9c47ab717fe:10
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 22:52:46] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\View\View::with_input()' in C:\xampp\htdocs\snippet\app\controllers\snippet.php:14
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-05-30 22:57:00] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\View\View::setCallback()' in C:\xampp\htdocs\snippet\app\controllers\snippet.php:14
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
