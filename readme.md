@@ -1,6 +1,6 @@
 ## Snippet script with Laravel PHP Framework
 
-Change the database settings and migrate the database and you are up and running
+Change the database settings and migrate the database and change the key you are up and running
 
 ### License
 
