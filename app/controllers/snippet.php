@@ -3,7 +3,8 @@
 class snippet_controller extends BaseController {
 
   protected $layout = 'snippet.master';
-  public $restful = true;
+  public $restful   = true;
+  public $timestamps = true;
 
   public function get_new()
   {
@@ -14,7 +15,7 @@ class snippet_controller extends BaseController {
   {
     // setup rules for validation
     $rules = array(
-      'snippet'    => 'required'
+      'snippet' => 'required'
     );
     $validation = Validator::make( Input::all(), $rules );
 
@@ -27,7 +28,7 @@ class snippet_controller extends BaseController {
     else
     {
       $id = DB::table( 'snippets' )->insertGetId(
-          array('name' => Input::get( 'name' ), 'snippet' => Input::get( 'snippet' ), 'language' => Input::get( 'language' ) )
+          array( 'name' => Input::get( 'name' ), 'snippet' => Input::get( 'snippet' ), 'language' => Input::get( 'language' ), 'created_at' => time() )
       );
       return Redirect::route( 'view_snippet' , array( $id ) )->with( 'id', $id );
     }
@@ -47,7 +48,7 @@ class snippet_controller extends BaseController {
 
   public function get_list()
   {
-    return 'List Snippets';
+    $this->layout->content = View::make( 'snippet.list' );
   }
 
 }
