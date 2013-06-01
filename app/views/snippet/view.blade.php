@@ -19,32 +19,34 @@ View Snippet
     closedir( $language_dir );
   }
 ?>
-  <div class="navbar-fixed-top">
-    <ul class="nav nav-tabs">
-      <li>
-        {{ HTML::linkRoute( 'new_snippet', 'New Snippet' ) }}
-      </li>
-      <li>
-        {{ HTML::linkRoute( 'list_snippets', 'List Snippets' ) }}
-      </li>
-      {{ Form::open( array( 'route' => 'new_snippet', 'class' => 'navbar-form pull-right' ) ) }}
-      {{ Form::input( 'text', 'name', e( $snippet->name ), [ 'placeholder' => 'Name', 'disabled'] ) }}
-      <select id="language" name="language" disabled>
-        @foreach ( $languages as $languages )
-          @if ( substr( $languages, 0, -4 ) == $snippet->language ) )
-            <option value="{{ substr( $languages, 0, -4 ) }}" selected="selected">
-              {{ substr( $languages, 0, -4 ) }}
-            </option>
-          @else
-            <option value="{{ substr( $languages, 0, -4 ) }}">
-              {{ substr( $languages, 0, -4 ) }}
-            </option>
-          @endif
-        @endforeach
-      </select>
-      {{ HTML::linkRoute('fork_snippet', 'Fork Snippet', $snippet->id, ['class' => 'btn btn-warning']) }}
-      {{ Form::close() }}
-    </ul>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <ul class="nav">
+        <li>
+          {{ HTML::linkRoute( 'new_snippet', 'New Snippet' ) }}
+        </li>
+        <li>
+          {{ HTML::linkRoute( 'list_snippets', 'List Snippets' ) }}
+        </li>
+        {{ Form::open( array( 'route' => 'new_snippet', 'class' => 'navbar-form pull-right' ) ) }}
+        {{ Form::input( 'text', 'name', e( $snippet->name ), [ 'placeholder' => 'Name', 'disabled'] ) }}
+        <select id="language" name="language" disabled>
+          @foreach ( $languages as $languages )
+            @if ( substr( $languages, 0, -4 ) == $snippet->language ) )
+              <option value="{{ substr( $languages, 0, -4 ) }}" selected="selected">
+                {{ substr( $languages, 0, -4 ) }}
+              </option>
+            @else
+              <option value="{{ substr( $languages, 0, -4 ) }}">
+                {{ substr( $languages, 0, -4 ) }}
+              </option>
+            @endif
+          @endforeach
+        </select>
+        {{ HTML::linkRoute('fork_snippet', 'Fork Snippet', $snippet->id, ['class' => 'btn btn-warning']) }}
+        {{ Form::close() }}
+      </ul>
+    </div>
   </div>
   <?php
 
