@@ -46,4 +46,9 @@ class snippet_controller extends BaseController {
     $this->layout->content = View::make('snippet.fork')->with('snippet', $snippet );
   }
 
+  public function get_list()
+  {
+    return 'List Snippets';
+  }
+
 }

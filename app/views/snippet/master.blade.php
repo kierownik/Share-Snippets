@@ -13,7 +13,7 @@
   </div>
   {{ HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js') }}
   <script>
-    $('textarea#snippet').height( $(window).height() - 50 );
+    $('textarea#snippet').height( $(window).height() - 70 );
     prettyPrint();
   </script>
 </body>
