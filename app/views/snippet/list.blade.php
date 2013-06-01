@@ -14,7 +14,7 @@ List Snippets
     </ul>
   </div>
 <?php
-  $snippets = DB::table('snippets')->paginate(25);
+  $snippets = DB::table('snippets')->paginate(10);
   ?>
   <table class="table table-hover table-bordered">
     <tr>
