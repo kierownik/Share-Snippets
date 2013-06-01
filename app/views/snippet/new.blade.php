@@ -20,9 +20,6 @@ New Snippet
 ?>
   <div class="navbar-fixed-top">
     <ul class="nav nav-tabs">
-      <li>
-        <a href="#">Share Your Snippets</a>
-      </li>
       <li class="active">
         {{ HTML::linkRoute( 'new_snippet', 'New Snippet' ) }}
       </li>

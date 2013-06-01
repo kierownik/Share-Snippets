@@ -15,7 +15,8 @@ class snippet_controller extends BaseController {
   {
     // setup rules for validation
     $rules = array(
-      'snippet' => 'required'
+      'snippet' => 'required',
+      'name'    => 'required|min:50'
     );
     $validation = Validator::make( Input::all(), $rules );
 

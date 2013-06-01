@@ -18,21 +18,9 @@ View Snippet
     }
     closedir( $language_dir );
   }
-
-  // Create a GeSHi object
-  $geshi = new GeSHi( $snippet->snippet, $snippet->language );
-  $geshi->set_header_type( GESHI_HEADER_PRE );
-  $geshi->enable_line_numbers( GESHI_FANCY_LINE_NUMBERS, 3 );
-  $geshi->set_tab_width( '2' );
-
-  // And echo the result! --}}
-  echo $geshi->parse_code();
 ?>
   <div class="navbar-fixed-top">
     <ul class="nav nav-tabs">
-      <li class="active">
-        <a href="#">Share Your Snippets</a>
-      </li>
       <li>
         {{ HTML::linkRoute( 'new_snippet', 'New Snippet' ) }}
       </li>
@@ -58,4 +46,16 @@ View Snippet
       {{ Form::close() }}
     </ul>
   </div>
+  <?php
+
+
+  // Create a GeSHi object
+  $geshi = new GeSHi( $snippet->snippet, $snippet->language );
+  $geshi->set_header_type( GESHI_HEADER_PRE );
+  $geshi->enable_line_numbers( GESHI_FANCY_LINE_NUMBERS, 3 );
+  $geshi->set_tab_width( '2' );
+
+  // And echo the result! --}}
+  echo $geshi->parse_code();
+  ?>
 @stop

@@ -21,9 +21,6 @@ Fork Snippet
 ?>
   <div class="navbar-fixed-top">
     <ul class="nav nav-tabs">
-      <li class="active">
-        <a href="#">Share Your Snippets</a>
-      </li>
       <li>
         {{ HTML::linkRoute( 'new_snippet', 'New Snippet' ) }}
       </li>
