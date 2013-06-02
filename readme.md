@@ -1,4 +1,4 @@
-## Snippet script with Laravel PHP Framework
+# Snippet script with Laravel PHP Framework
 
 Change the database settings and migrate the database and change the key you are up and running
 
@@ -8,11 +8,9 @@ See [snippet.kierownik.nl](http://snippet.kierownik.nl)
 
 ## TODO
 
-Spam Prevention
-
-Check for security holes
-
-Check routes to realy use restfull pattern
+Spam Prevention  
+Check for security holes  
+Check routes to realy use restfull pattern  
 
 ### License
 
