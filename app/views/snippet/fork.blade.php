@@ -18,6 +18,7 @@ Fork Snippet
     }
     closedir( $language_dir );
   }
+  asort( $languages );
 ?>
   <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
@@ -29,7 +30,7 @@ Fork Snippet
           {{ HTML::linkRoute( 'list_snippets', 'List Snippets' ) }}
         </li>
         {{ Form::open( array( 'url' => '/', 'class' => 'navbar-form pull-right' ) ) }}
-        {{ Form::input('text', 'name', $snippet->name, [ 'placeholder' => 'Name']) }}
+        {{ Form::input('text', 'name', $snippet->name, array( 'placeholder' => 'Name' ) ) }}
         <select id="language" name="language">
           @foreach ( $languages as $languages )
             @if ( substr( $languages, 0, -4 ) == $snippet->language ) )
@@ -43,10 +44,10 @@ Fork Snippet
             @endif
           @endforeach
         </select>
-        {{ Form::submit('Save Snippet', ['class' => 'btn btn-success']) }}
+        {{ Form::submit('Save Snippet', array( 'class' => 'btn btn-success' ) ) }}
       </ul>
     </div>
   </div>
-  {{ Form::textarea('snippet', $snippet->snippet, array('id' => 'snippet')) }}
+  {{ Form::textarea('snippet', $snippet->snippet, array( 'id' => 'snippet' ) ) }}
 {{ Form::close() }}
 @stop

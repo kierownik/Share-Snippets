@@ -4,6 +4,11 @@ View Snippet
 
 @section( 'content' )
 <?php
+//
+// Include the GeSHi library
+//
+include_once app_path().'/geshi/geshi.php';
+
   // Get all the languages
   $languages = array();
   $dir = app_path().'/geshi/geshi';
@@ -18,6 +23,7 @@ View Snippet
     }
     closedir( $language_dir );
   }
+  asort( $languages );
 ?>
   <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
@@ -29,7 +35,7 @@ View Snippet
           {{ HTML::linkRoute( 'list_snippets', 'List Snippets' ) }}
         </li>
         {{ Form::open( array( 'route' => 'new_snippet', 'class' => 'navbar-form pull-right' ) ) }}
-        {{ Form::input( 'text', 'name', e( $snippet->name ), [ 'placeholder' => 'Name', 'disabled'] ) }}
+        {{ Form::input( 'text', 'name', e( $snippet->name ), array( 'placeholder' => 'Name', 'disabled' ) ) }}
         <select id="language" name="language" disabled>
           @foreach ( $languages as $languages )
             @if ( substr( $languages, 0, -4 ) == $snippet->language ) )
@@ -43,7 +49,7 @@ View Snippet
             @endif
           @endforeach
         </select>
-        {{ HTML::linkRoute('fork_snippet', 'Fork Snippet', $snippet->id, ['class' => 'btn btn-warning']) }}
+        {{ HTML::linkRoute('fork_snippet', 'Fork Snippet', $snippet->id, array( 'class' => 'btn btn-warning' ) ) }}
         {{ Form::close() }}
       </ul>
     </div>

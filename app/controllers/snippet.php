@@ -11,7 +11,7 @@ class snippet_controller extends BaseController {
     $this->layout->content = View::make( 'snippet.new' );
   }
 
-  public function post_new()
+  public function post_save_snippet()
   {
     // setup rules for validation
     $rules = array(

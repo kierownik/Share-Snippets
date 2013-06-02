@@ -19,4 +19,4 @@ Route::get('view/{id}', array('as' => 'view_snippet', 'uses' => 'snippet_control
 
 Route::get('fork/{id}', array('as' => 'fork_snippet', 'uses' => 'snippet_controller@get_fork'), function($id){})->where('id', '[0-9]+');
 
-Route::post('/', array('as' => 'save_snippet', 'uses' => 'snippet_controller@post_new'));
+Route::post('save_snippet', array( 'before' => 'csrf', 'as' => 'save_snippet', 'uses' => 'snippet_controller@post_save_snippet'));
