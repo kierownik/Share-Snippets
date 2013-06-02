@@ -9,7 +9,9 @@ See [snippet.kierownik.nl](http://snippet.kierownik.nl)
 ## TODO
 
 Spam Prevention
+
 Check for security holes
+
 Check routes to realy use restfull pattern
 
 ### License
