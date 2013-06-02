@@ -6,11 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'AddTimestampsToSnippetTable' => $baseDir . '/app/database/migrations/2013_05_30_175222_add_timestamps_to_snippet_table.php',
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/Carbon/Carbon.php',
     'Carbon\\Tests\\TestFixture' => $vendorDir . '/nesbot/carbon/Carbon/Tests/TestFixture.php',
-    'ChangeTableNameSnippetToSnippets' => $baseDir . '/app/database/migrations/2013_05_31_084836_change_table_name_snippet_to_snippets.php',
     'ClassPreloader\\Application' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Application.php',
     'ClassPreloader\\ClassList' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/ClassList.php',
     'ClassPreloader\\ClassLoader' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/ClassLoader.php',
@@ -21,8 +19,6 @@ return array(
     'ClassPreloader\\Parser\\DirVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/DirVisitor.php',
     'ClassPreloader\\Parser\\FileVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/FileVisitor.php',
     'ClassPreloader\\Parser\\NodeTraverser' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/NodeTraverser.php',
-    'CreateSessionTable' => $baseDir . '/app/database/migrations/2013_05_30_172835_create_session_table.php',
-    'CreateSnippetTable' => $baseDir . '/app/database/migrations/2013_05_30_173709_create_snippet_table.php',
     'DatabaseSeeder' => $baseDir . '/app/database/seeds/DatabaseSeeder.php',
     'Doctrine\\Common\\Annotations\\Annotation' => $vendorDir . '/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation.php',
     'Doctrine\\Common\\Annotations\\AnnotationException' => $vendorDir . '/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php',
@@ -1185,6 +1181,7 @@ return array(
     'Symfony\\Component\\Debug\\Debug' => $vendorDir . '/symfony/debug/Symfony/Component/Debug/Debug.php',
     'Symfony\\Component\\Debug\\ErrorHandler' => $vendorDir . '/symfony/debug/Symfony/Component/Debug/ErrorHandler.php',
     'Symfony\\Component\\Debug\\ExceptionHandler' => $vendorDir . '/symfony/debug/Symfony/Component/Debug/ExceptionHandler.php',
+    'Symfony\\Component\\Debug\\Exception\\ContextErrorException' => $vendorDir . '/symfony/debug/Symfony/Component/Debug/Exception/ContextErrorException.php',
     'Symfony\\Component\\Debug\\Exception\\FatalErrorException' => $vendorDir . '/symfony/debug/Symfony/Component/Debug/Exception/FatalErrorException.php',
     'Symfony\\Component\\Debug\\Exception\\FlattenException' => $vendorDir . '/symfony/debug/Symfony/Component/Debug/Exception/FlattenException.php',
     'Symfony\\Component\\DomCrawler\\Crawler' => $vendorDir . '/symfony/dom-crawler/Symfony/Component/DomCrawler/Crawler.php',
