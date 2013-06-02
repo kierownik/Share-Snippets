@@ -29,7 +29,7 @@ Fork Snippet
         <li>
           {{ HTML::linkRoute( 'list_snippets', 'List Snippets' ) }}
         </li>
-        {{ Form::open( array( 'url' => '/', 'class' => 'navbar-form pull-right' ) ) }}
+        {{ Form::open( array( 'route' => 'save_snippet', 'class' => 'navbar-form pull-right' ) ) }}
         {{ Form::input('text', 'name', $snippet->name, array( 'placeholder' => 'Name' ) ) }}
         <select id="language" name="language">
           @foreach ( $languages as $languages )
@@ -48,6 +48,6 @@ Fork Snippet
       </ul>
     </div>
   </div>
-  {{ Form::textarea('snippet', $snippet->snippet, array( 'id' => 'snippet' ) ) }}
+  {{ Form::textarea('snippet', e( $snippet->snippet ), array( 'id' => 'snippet' ) ) }}
 {{ Form::close() }}
 @stop
