@@ -23,7 +23,7 @@ New Snippet
     <div class="navbar-inner">
       <ul class="nav">
         <li class="active">
-          {{ HTML::linkRoute( 'new_snippet', 'New Snippet' ) }}
+          {{ HTML::linkAction( 'SnippetController@getIndex', 'New Snippet' ) }}
         </li>
         <li>
           {{ HTML::linkRoute( 'list_snippets', 'List Snippets' ) }}

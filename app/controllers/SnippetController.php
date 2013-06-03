@@ -1,17 +1,21 @@
 <?php
 
-class snippet_controller extends BaseController {
+class SnippetController extends BaseController {
 
   protected $layout = 'snippet.master';
-  public $restful   = true;
   public $timestamps = true;
 
-  public function get_new()
+  public function getIndex()
   {
     $this->layout->content = View::make( 'snippet.new' );
   }
 
-  public function post_save_snippet()
+  public function getNew()
+  {
+    $this->layout->content = View::make( 'snippet.new' );
+  }
+
+  public function postSaveSnippet()
   {
     // setup rules for validation
     $rules = array(
@@ -35,19 +39,19 @@ class snippet_controller extends BaseController {
     }
   }
 
-  public function get_view( $id )
+  public function getView( $id )
   {
     $snippet = Snippet::find( $id );
     $this->layout->content = View::make( 'snippet.view' )->with( 'snippet', $snippet );
   }
 
-  public function get_fork( $id )
+  public function getFork( $id )
   {
     $snippet = Snippet::find( $id );
     $this->layout->content = View::make( 'snippet.fork' )->with( 'snippet', $snippet );
   }
 
-  public function get_list()
+  public function getList()
   {
     $this->layout->content = View::make( 'snippet.list' );
   }

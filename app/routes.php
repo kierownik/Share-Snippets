@@ -11,12 +11,13 @@
 |
 */
 
-Route::get('/', array('as' => 'new_snippet', 'uses' => 'snippet_controller@get_new'));
 
-Route::get('list-snippets', array('as' => 'list_snippets', 'uses' => 'snippet_controller@get_list'));
+Route::get('/', array('as' => 'new_snippet', 'uses' => 'SnippetController@getIndex'));
 
-Route::get('view/{id}', array('as' => 'view_snippet', 'uses' => 'snippet_controller@get_view'), function($id){})->where('id', '[0-9]+');
+Route::get('list-snippets', array('as' => 'list_snippets', 'uses' => 'SnippetController@getList'));
 
-Route::get('fork/{id}', array('as' => 'fork_snippet', 'uses' => 'snippet_controller@get_fork'), function($id){})->where('id', '[0-9]+');
+Route::get('view/{id}', array('as' => 'view_snippet', 'uses' => 'SnippetController@getView'), function($id){})->where('id', '[0-9]+');
 
-Route::post('save_snippet', array( 'before' => 'csrf', 'as' => 'save_snippet', 'uses' => 'snippet_controller@post_save_snippet'));
+Route::get('fork/{id}', array('as' => 'fork_snippet', 'uses' => 'SnippetController@getFork'), function($id){})->where('id', '[0-9]+');
+
+Route::post('save_snippet', array( 'before' => 'csrf', 'as' => 'save_snippet', 'uses' => 'SnippetController@postSaveSnippet'));
