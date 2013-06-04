@@ -1,5 +1,4 @@
 body {
-  /*background: black;*/
   width: 100%;
   margin: auto;
   font-size: 20px;
@@ -18,20 +17,4 @@ pre {
 textarea#snippet {
   width: 100%;
   min-height: 400px;
-  /*background: black;*/
-  /*border: none;
-  outline: 0;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;*/
 }
-
-/*.navbar {
-  position: absolute;
-  right: 0;
-  top: 0;
-}*/
-
-/*.navbar-fixed-top {
-  margin-right: 15px;
-  margin-left: 15px;
-}*/

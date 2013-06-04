@@ -11,7 +11,6 @@
 |
 */
 
-
 Route::get('/', array('as' => 'new_snippet', 'uses' => 'SnippetController@getIndex'));
 
 Route::get('list-snippets', array('as' => 'list_snippets', 'uses' => 'SnippetController@getList'));
