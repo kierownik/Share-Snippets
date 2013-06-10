@@ -49,21 +49,20 @@ include_once app_path().'/geshi/geshi.php';
             @endif
           @endforeach
         </select>
-        {{ HTML::linkRoute('fork_snippet', 'Fork Snippet', $snippet->id, array( 'class' => 'btn btn-warning' ) ) }}
+        {{ HTML::linkRoute( 'fork_snippet', 'Fork Snippet', $snippet->id, array( 'class' => 'btn btn-warning' ) ) }}
         {{ Form::close() }}
       </ul>
     </div>
   </div>
-  <?php
+<?php
 
+// Create a GeSHi object
+$geshi = new GeSHi( $snippet->snippet, $snippet->language );
+$geshi->set_header_type( GESHI_HEADER_PRE );
+$geshi->enable_line_numbers( GESHI_FANCY_LINE_NUMBERS, 3 );
+$geshi->set_tab_width( '2' );
 
-  // Create a GeSHi object
-  $geshi = new GeSHi( $snippet->snippet, $snippet->language );
-  $geshi->set_header_type( GESHI_HEADER_PRE );
-  $geshi->enable_line_numbers( GESHI_FANCY_LINE_NUMBERS, 3 );
-  $geshi->set_tab_width( '2' );
-
-  // And echo the result! --}}
-  echo $geshi->parse_code();
-  ?>
+// And echo the result!
+echo $geshi->parse_code();
+?>
 @stop
